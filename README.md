@@ -95,7 +95,7 @@ Now filter for DHCP traffic. Enter the command ipconfig /renew and observe the t
 <img width="1440" alt="Screen Shot 2024-07-03 at 11 38 03 AM" src="https://github.com/Bpeduru/azure-network-protocols/assets/171273980/af875795-4c34-4ce4-929f-421a4e049169">
 </p>
 <br />
-Now filtler for DNS traffic. Use the command nslookup (Domain name) to lookup the IP address of different websites. I uses Google.com, Amazon.com and Disney.com. Observe the traffic in Wireshark
+Now filter for DNS traffic. Use the command nslookup (Domain name) to lookup the IP address of different websites. I uses Google.com, Amazon.com and Disney.com. Observe the traffic in Wireshark
 </p>
 <br />
 <img width="1440" alt="Screen Shot 2024-07-03 at 11 36 32 AM" src="https://github.com/Bpeduru/azure-network-protocols/assets/171273980/66ac63a7-ecb6-49b9-b707-3ae226e7ae7a">
