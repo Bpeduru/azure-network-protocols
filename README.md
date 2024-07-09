@@ -101,6 +101,6 @@ Now filter for DNS traffic. Use the command nslookup (Domain name) to lookup the
 <img width="1440" alt="Screen Shot 2024-07-03 at 11 36 32 AM" src="https://github.com/Bpeduru/azure-network-protocols/assets/171273980/66ac63a7-ecb6-49b9-b707-3ae226e7ae7a">
 </p>
 <br />
-Now filter to RDP traffic, or TCP port 3389 (TCP port == 3389). Observe that there is a constant flow of traffic. This is because you are usign the Remote desktop protocol right this moment to connect to the virtual machine in the first place! You will see your own computers IP address communicating with the virtual machine. When you are done cleanup your ressources in Azure. 
+Now filter to RDP traffic, or TCP port 3389 (TCP port == 3389). Observe that there is a constant flow of traffic. This is because you are usign the Remote desktop protocol right this moment to connect to the virtual machine in the first place! You will see your own computers IP address communicating with the virtual machine. When you are done cleanup your resources in Azure. 
 
 
