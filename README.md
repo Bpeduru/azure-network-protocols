@@ -85,3 +85,22 @@ Start a perpertual ping to the Ubuntu VM with the ping -t command. Then add an i
 Now Filter for ssh traffic within Wireshark. Use the ssh command to connect to the virtual machine so you can initiate commands within its command line. To do this enter ssh (yourubunutusername)@(YourUbuntuipaddress). For my example it would be ssh labuser@10.1.0.5. Observe the traffic within Wireshark. Now enter different Ubuntu commands (Username,pwd,id, etc.)Observe the traffic within wireshark as you enter each command. To exit the connection, type exit and hit enter. 
 </p>
 <br />
+<img width="1325" alt="Screen Shot 2024-07-09 at 1 54 13 PM" src="https://github.com/Bpeduru/azure-network-protocols/assets/171273980/5dfc4499-bf1e-40a4-8d61-09a13247b7ac">
+
+</p>
+<br />  
+Now filter for DHCP traffic. Enter the command ipconfig /renew and observe the traffic
+</p>
+<br />
+<img width="1440" alt="Screen Shot 2024-07-03 at 11 38 03 AM" src="https://github.com/Bpeduru/azure-network-protocols/assets/171273980/af875795-4c34-4ce4-929f-421a4e049169">
+</p>
+<br />
+Now filtler for DNS traffic. Use the command nslookup (Domain name) to lookup the IP address of different websites. I uses Google.com, Amazon.com and Disney.com. Observe the traffic in Wireshark
+</p>
+<br />
+<img width="1440" alt="Screen Shot 2024-07-03 at 11 36 32 AM" src="https://github.com/Bpeduru/azure-network-protocols/assets/171273980/66ac63a7-ecb6-49b9-b707-3ae226e7ae7a">
+</p>
+<br />
+Now filter to RDP traffic, or TCP port 3389 (TCP port == 3389). Observe that there is a constant flow of traffic. This is because you are usign the Remote desktop protocol right this moment to connect to the virtual machine in the first place! You will see your own computers IP address communicating with the virtual machine. When you are done cleanup your ressources in Azure. 
+
+
