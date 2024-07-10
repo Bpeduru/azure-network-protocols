@@ -37,7 +37,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 #### Step 6: Observe RDP Traffic
 
-#### Step 7: Lab Cleanup
+#### Step 7: Resource Cleanup
 
 <h2>Actions and Observations</h2>
 
@@ -68,7 +68,7 @@ Use Remote Desktop to connect to the Windows virtual machine, and within it inst
 <img width="1365" alt="Screen Shot 2024-07-03 at 11 08 36 AM" src="https://github.com/Bpeduru/azure-network-protocols/assets/171273980/ba5264e6-7ff2-4bad-851d-95bda83b38ef">
 
 </p>
-<br />
+
 Within Wireshark, filter for ICMP traffic only. To do this, type ICMP onto the bar at the top and hit enter. If you entered it correctly it should turtn green. Then attempt to Ping the Ubuntu virtual machine you perviously created. Observe what happens within wireshark. Then attempt to ping  a public website, I used amazon.com in the example above. Observe the traffic. (ICMP is the protocol that the ping command uses) 
 <p>
 <p>
@@ -104,7 +104,7 @@ Now filter for DHCP traffic. Enter the command ipconfig /renew and observe the t
 <img width="1440" alt="Screen Shot 2024-07-03 at 11 38 03 AM" src="https://github.com/Bpeduru/azure-network-protocols/assets/171273980/af875795-4c34-4ce4-929f-421a4e049169">
 </p>
 <br />
-Now filter for DNS traffic. Use the command nslookup (Domain name) to lookup the IP address of different websites. I uses Google.com, Amazon.com and Disney.com. Observe the traffic in Wireshark
+Now filter for DNS traffic. Use the command nslookup (Domain name) to lookup the IP address of different websites. I used Google.com, Amazon.com and Disney.com. Observe the traffic in Wireshark
 </p>
 <br />
 <img width="1440" alt="Screen Shot 2024-07-03 at 11 36 32 AM" src="https://github.com/Bpeduru/azure-network-protocols/assets/171273980/66ac63a7-ecb6-49b9-b707-3ae226e7ae7a">
