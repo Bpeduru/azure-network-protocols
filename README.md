@@ -22,19 +22,19 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-#### Step 1: Create Our Resources
+Step 1: Create Our Resources
 
-#### Step 2: Observe ICMP Traffic
+ Step 2: Observe ICMP Traffic
 
-#### Step 3: Observe SSH Traffic
+ Step 3: Observe SSH Traffic
 
-#### Step 4: Observe DHCP Traffic
+ Step 4: Observe DHCP Traffic
 
-#### Step 5: Observe DNS Traffic
+Step 5: Observe DNS Traffic
 
-#### Step 6: Observe RDP Traffic
+Step 6: Observe RDP Traffic
 
-#### Step 7: Resource Cleanup
+Step 7: Resource Cleanup
 
 <h2>Actions and Observations</h2>
 
